@@ -31,5 +31,5 @@ chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\AutomationPr
 ```
 4. 在新弹出谷歌浏览器框里打开网址，登入。搜索框搜索要下载的视频，再运行即可
 5. 打开[小k网页](https://xk.yunboai.com/user/videohandle/)，扫描登入。手动上传一次。
-6. 在 上传小Kplus.py 中搜索path 修改本地视频路径。
-7. 运行 上传小Kplus.py
+6. 在 `上传小Kplus.py` 中搜索path 修改本地视频路径。
+7. 运行 `上传小Kplus.py`
