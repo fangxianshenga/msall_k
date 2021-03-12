@@ -23,17 +23,18 @@ pip install -r requirements.txt
 --------------------
 
 1. 安装谷歌浏览器及谷歌驱动，两者版本要一致(这里给的是87.0.4280.88版本的)，谷歌不是这个版本的需要自行下载对应版本[驱动](http://npm.taobao.org/mirrors/chromedriver/) 把安装的谷歌目录添加到环境变量中(path)。
+
 ![image](https://user-images.githubusercontent.com/51109116/110901818-d8e50c80-833f-11eb-879c-a11d7f12d2be.png)
 
-3. 把chromdriver分别添加到浏览器的安装目录，python安装目录Scripts文件夹中,重启电脑。
+2. 把chromdriver分别添加到浏览器的安装目录，python安装目录Scripts文件夹中,重启电脑。
 ![image](https://user-images.githubusercontent.com/51109116/110901862-ea2e1900-833f-11eb-871e-7905eec8fcf8.png)
 
 
-4. 打开命令提示符(菜单+R,输入cmd即可打开)，在命令运行中输入以下命令会弹出谷歌浏览器界面：
+3. 打开命令提示符(菜单+R,输入cmd即可打开)，在命令运行中输入以下命令会弹出谷歌浏览器界面：
 ```python
 chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\AutomationProfile"
 ```
-5. 在新弹出谷歌浏览器框里打开网址，登入。搜索框搜索要下载的视频，再运行即可
-6. 打开[小k网页](https://xk.yunboai.com/user/videohandle/)，扫描登入。手动上传一次。
-7. 在 `上传小Kplus.py` 中搜索path 修改本地视频路径。
-8. 运行 `上传小Kplus.py`
+4. 在新弹出谷歌浏览器框里打开网址，登入。搜索框搜索要下载的视频，再运行即可
+5. 打开[小k网页](https://xk.yunboai.com/user/videohandle/)，扫描登入。手动上传一次。
+6. 在 `上传小Kplus.py` 中搜索path 修改本地视频路径。
+7. 运行 `上传小Kplus.py`
